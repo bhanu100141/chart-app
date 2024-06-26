@@ -1,0 +1,45 @@
+.chart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeframe-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .timeframe-buttons button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #498fd9;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timeframe-buttons button:hover {
+    background-color: #d7de50;
+  }
+  
+  .chart {
+    max-width: 100%;
+    margin-top: 40px;
+    
+  }
+  
+  .chart canvas {
+    max-width: 100% !important;
+  }
+  
+  .clicked-data {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #151513;
+  }
